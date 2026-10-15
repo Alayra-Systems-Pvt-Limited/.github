@@ -1,14 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Alayra-Systems-Pvt-Limited/.github/main/profile/assets/hero.gif" alt="Alayra Systems: See clearly. Build sovereignly. Stand reliably." width="100%"/>
+<img src="https://raw.githubusercontent.com/Alayra-Systems-Pvt-Limited/.github/main/profile/assets/hero.gif" alt="Alayra Systems: One endpoint. Every model. Zero markup." width="100%"/>
 
 <br>
 
-**Sovereign AI infrastructure, built in Pakistan for the world.**
-
-[![Website](https://img.shields.io/badge/alayrasystems.com-C9A84C?style=for-the-badge&logo=googlechrome&logoColor=black)](https://alayrasystems.com)
-[![Nexus Cloud](https://img.shields.io/badge/Nexus_Cloud-22d3ee?style=for-the-badge&logo=vercel&logoColor=black)](https://alayra-nexus-cloud-frontend.vercel.app)
-[![Kinetic IDE](https://img.shields.io/badge/kinetic--ide.com-0e7490?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://kinetic-ide.com)
+[![Website](https://img.shields.io/badge/alayrasystems.com-D4AF55?style=for-the-badge&logo=googlechrome&logoColor=black)](https://alayrasystems.com)
+[![Nexus Cloud](https://img.shields.io/badge/Nexus_Cloud-0E94B4?style=for-the-badge&logo=vercel&logoColor=white)](https://alayra-nexus-cloud-frontend.vercel.app)
+[![Kinetic IDE](https://img.shields.io/badge/kinetic--ide.com-22d3ee?style=for-the-badge&logo=visualstudiocode&logoColor=black)](https://kinetic-ide.com)
 [![npm](https://img.shields.io/badge/npm-@alayrasystems/nexus-cb0000?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/@alayrasystems/nexus)
 [![X](https://img.shields.io/badge/X-@alayranexus-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/alayranexus)
 
@@ -18,9 +16,11 @@
 
 ## Who we are
 
-**Alayra Systems** is an engineering company with teams in **Pakistan** and the **United States**. We build developer tools and AI infrastructure for people and organizations that want modern AI **without handing their code, keys, or telemetry to someone else's cloud**.
+**Alayra Systems** builds AI infrastructure and developer tools for people and teams who want modern AI **without handing their code, keys, or telemetry to someone else's cloud**. We work from **Pakistan** and the **United States**.
 
-Two products, one belief: **you should own your AI stack.**
+The name ends in *Ra*, the sun, the symbol of clarity and permanence. In our mark, two strokes meet at a single point and the sun rises inside them: **one endpoint, held in the light.**
+
+> **See clearly. Build sovereignly. Stand reliably.**
 
 ---
 
@@ -28,68 +28,51 @@ Two products, one belief: **you should own your AI stack.**
 
 # Alayra Nexus
 
-**One gateway in front of every AI provider you use.**
+**The AI gateway for developers, teams and enterprises.**
 
-<a href="https://alayra-nexus-cloud-frontend.vercel.app"><img src="https://raw.githubusercontent.com/Alayra-Systems-Pvt-Limited/.github/main/profile/assets/nexus.gif" alt="Alayra Nexus routing requests across providers with automatic failover" width="100%"/></a>
+<a href="https://alayra-nexus-cloud-frontend.vercel.app"><img src="https://raw.githubusercontent.com/Alayra-Systems-Pvt-Limited/.github/main/profile/assets/nexus.gif" alt="Alayra Nexus routing requests from your apps to healthy providers with automatic failover" width="100%"/></a>
 
-[![Open Nexus Cloud](https://img.shields.io/badge/Create_your_workspace-Nexus_Cloud-22d3ee?style=for-the-badge)](https://alayra-nexus-cloud-frontend.vercel.app)
-[![Source](https://img.shields.io/badge/Open_source-Apache_2.0-6d28d9?style=for-the-badge&logo=github)](https://github.com/Alayra-Systems-Pvt-Limited/Alayra-Nexus)
-[![Live demo](https://img.shields.io/badge/Live_demo-dashboard-0e7490?style=for-the-badge)](https://alayra-systems-pvt-limited.github.io/Alayra-Nexus/demo/)
+[![Create your workspace](https://img.shields.io/badge/Create_your_workspace-Nexus_Cloud-0E94B4?style=for-the-badge)](https://alayra-nexus-cloud-frontend.vercel.app)
+[![Source](https://img.shields.io/badge/Open_source-Apache_2.0-D4AF55?style=for-the-badge&logo=github&logoColor=black)](https://github.com/Alayra-Systems-Pvt-Limited/Alayra-Nexus)
+[![Live demo](https://img.shields.io/badge/Live_demo-dashboard-22d3ee?style=for-the-badge&logoColor=black)](https://alayra-systems-pvt-limited.github.io/Alayra-Nexus/demo/)
 
 </div>
 
-Bring your own provider keys. Nexus sends each request through the tiers you choose, fails over when a key fails, and answers in the OpenAI format your code already speaks. Only the base URL changes.
-
-**Where it stands today**
+Bring your own provider keys. Point every app at one OpenAI-compatible endpoint. Nexus routes each request through the tiers you choose and fails over when a key fails. **Zero markup:** requests go out on your own keys, so you pay each provider directly at their published price.
 
 | | |
 | :--- | :--- |
-| **Open-source gateway** | Live. Self-host in three commands, Apache 2.0, on GitHub, npm and Docker Hub. |
+| **Open-source gateway** | **Live.** Self-host with `npx @alayrasystems/nexus`, Docker or Compose. Apache 2.0, every feature included. |
 | **Nexus Cloud sign-up** | **Open.** Create an account and workspace, verify your email, secure it with two-factor sign-in, and work with your own API keys. |
-| **Hosted endpoint** | Coming soon. Nexus Cloud will run the same gateway for you. |
+| **Hosted endpoint** | **Coming soon.** Nexus Cloud will run the same gateway for you. |
 
 **What you get**
 
-- Tiered failover (Premium, Standard, Fast) with circuit-breaking key pools
-- OpenAI `/v1/chat/completions` and Anthropic `/v1/messages`, so OpenAI SDKs, Anthropic SDKs and Claude Code all route through one pool
-- Cache-aware sticky routing, real-time per-key rate limits
-- USD cost on every request, team attribution, analytics, CSV export
-- Team keys, bring-your-own-key, optional guardrails
+- Tiered failover (Premium, Standard, Fast) with per-key circuit breakers
+- OpenAI `/v1/chat/completions` and Anthropic `/v1/messages`, so Claude Code, Cursor, Cline and the OpenAI and Anthropic SDKs route through one pool
+- Cache-aware sticky routing and real-time per-key rate limits
+- A USD cost on every request, attributed to the team, with analytics and CSV export
+- Team budgets, bring-your-own-keys, SSO, two-factor and an append-only audit trail
 - Provider keys encrypted at rest with AES-256-GCM
 
 **Providers verified with real completions:** Groq, OpenRouter, Google Gemini, Mistral, Hugging Face, Cloudflare Workers AI. OpenAI and Anthropic are available as presets, and any OpenAI-compatible endpoint can be added.
 
 ```bash
-curl -O https://raw.githubusercontent.com/Alayra-Systems-Pvt-Limited/Alayra-Nexus/main/docker-compose.yml
-printf 'MASTER_ENCRYPTION_KEY=%s\nADMIN_PASSWORD=change-me\n' "$(openssl rand -hex 32)" > .env
-docker compose up -d
+npx @alayrasystems/nexus
 ```
-
-Dashboard on `localhost:3000`, OpenAI-compatible API on `localhost:3000/v1`.
 
 ---
 
-<div align="center">
+## The Kinetic family
 
-# Kinetic IDE
-
-**Intelligence without surveillance. Full control. Zero cloud. Your code, your rules.**
-
-[![Download](https://img.shields.io/badge/Start_free-90_days-C9A84C?style=for-the-badge)](https://kinetic-ide.com)
-[![Engineering record](https://img.shields.io/badge/Engineering_record-GitHub-0e7490?style=for-the-badge&logo=github)](https://github.com/Alayra-Systems-Pvt-Limited/Kinetic-IDE)
-
-</div>
-
-A security-hardened, agentic development environment where AI reasoning, tool execution, and codebase indexing stay under your control.
+Nexus is the first layer of the Alayra stack. Above it, Kinetic brings the same conviction to the place software is written: **local-first, human-approved, auditable.**
 
 | | |
 | :--- | :--- |
-| **RAG Engine** | Understands your whole codebase, locally. |
-| **Squad Mode** | Specialist agents working together, with validated output. |
-| **Pulse Archive** | Permanent session memory, so the AI stops forgetting. |
-| **Sentry Gate** | Every write is approved by you. Nothing changes without consent. |
-| **Bring Your Own Key** | Run your own model instances and defaults. |
-| **Privacy first** | AES-256 vault, local RAG, code stays on your machine. |
+| **[Kinetic IDE](https://kinetic-ide.com)** | An AI-native IDE. Your codebase is indexed on your own machine (local RAG in a Rust engine). The agent writes a plan you approve, asks before it runs a command, and records what it did. Keys stay in your control. |
+| **Kinetic AIDE** | A standalone, chat-first workspace for agent-driven development: Ask, Plan, Code and Vision modes, risk-scored approval for commands, a built-in terminal and web preview, and keys in your OS keychain. |
+
+Every Alayra product is in active development. Early access is open at [alayrasystems.com](https://alayrasystems.com).
 
 ---
 
@@ -99,18 +82,17 @@ A security-hardened, agentic development environment where AI reasoning, tool ex
 | :--- | :--- |
 | [**Alayra-Nexus**](https://github.com/Alayra-Systems-Pvt-Limited/Alayra-Nexus) | Open-source AI gateway and operations platform. Apache 2.0. |
 | [**Kinetic-IDE**](https://github.com/Alayra-Systems-Pvt-Limited/Kinetic-IDE) | The public engineering record and milestones of Kinetic IDE. |
-| [**KineticFrontend**](https://github.com/Alayra-Systems-Pvt-Limited/KineticFrontend) | Public showcase of the Kinetic IDE website and its 3D interface. |
+| [**KineticFrontend**](https://github.com/Alayra-Systems-Pvt-Limited/KineticFrontend) | Public showcase of the Kinetic IDE website and its interface. |
 
-The rest of our work (the IDE core, engine, cloud services, and admin tooling) lives in private repositories.
+The rest of our work (the IDE core, engine, cloud services and admin tooling) lives in private repositories.
 
 ---
 
-## What we care about
+## What we believe
 
-- **Sovereignty.** Your keys, your code, your data boundary.
-- **Production-grade from day one.** Routing, failover, backups, audit and security are features, not roadmap items.
-- **Honest engineering.** We publish what is shipped and label what is not.
-- **Open where it counts.** Nexus is open source so you can read it, run it, and trust it.
+- **Privacy by architecture.** Your keys, your code and your data stay inside the boundary you define. Sovereignty is structural, not a setting.
+- **Production by standard.** We build for the system under load at 3am, not the demo. Every claim points to code you can read.
+- **Generational thinking.** We are building infrastructure the next generation will maintain. Decades, not quarters.
 
 ## Tech we work in
 
@@ -129,7 +111,7 @@ The rest of our work (the IDE core, engine, cloud services, and admin tooling) l
 - **Create a Nexus Cloud workspace:** [alayra-nexus-cloud-frontend.vercel.app](https://alayra-nexus-cloud-frontend.vercel.app)
 - **Self-host Nexus:** see the [quick start](https://github.com/Alayra-Systems-Pvt-Limited/Alayra-Nexus#quick-start)
 - **Star the repos** you like, and open an issue or discussion on any public repo
-- **Work or partner with us:** [info@alayrasystems.com](mailto:info@alayrasystems.com)
+- **Work or partner with us:** [hello@alayrasystems.com](mailto:hello@alayrasystems.com)
 
 <br>
 
